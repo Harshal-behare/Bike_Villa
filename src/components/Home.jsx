@@ -48,7 +48,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hi, I Am <br /> Abhishek Singh
+            Hi, I Am <br /> Harshal Behare
           </motion.h1>
 
           <Typewriter
@@ -62,7 +62,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:official.6packprogrammer@gmail.com">Hire Me</a>
+            <a href="mailto:harshalbehare1@gmail.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
@@ -99,13 +99,13 @@ const Home = ({ ratio }) => {
 
             <article data-special>
               <p>Contact</p>
-              <span>official.6packprogrammer@gmail.com</span>
+              <span>harshalbehare1@gmail.com</span>
             </article>
           </aside>
         </div>
       </section>
       <section>
-        <img src={me} alt="Abhishek" />
+        <img src={me} alt="Harshal" />
       </section>
       <BsChevronDown />
     </div>

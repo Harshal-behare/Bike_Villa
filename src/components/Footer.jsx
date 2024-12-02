@@ -11,11 +11,11 @@ const Footer = () => {
     <footer>
       <div>
         <img
-          src={"https://avatars.githubusercontent.com/u/25058652"}
+          src={""}
           alt="Founder"
         />
 
-        <h2>Abhishek Singh</h2>
+        <h2>Harshal Behare</h2>
         <p>Motivation is temporary, but discipline last forever.</p>
       </div>
 
@@ -23,13 +23,13 @@ const Footer = () => {
         <h2>Social Media</h2>
 
         <article>
-          <a href="https://youtube.com/6packprogrammer" target={"blank"}>
+          <a href="https://youtube.com/" target={"blank"}>
             <AiFillYoutube />
           </a>
-          <a href="https://instagram.com/meabhisingh" target={"blank"}>
+          <a href="https://instagram.com/" target={"blank"}>
             <AiFillInstagram />
           </a>
-          <a href="https://github.com/meabhisingh" target={"blank"}>
+          <a href="https://github.com/" target={"blank"}>
             <AiFillGithub />
           </a>
         </article>

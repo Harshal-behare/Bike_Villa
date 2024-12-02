@@ -3,24 +3,29 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div id="testimonial">
-      <h2>Testimonial</h2>
+      <h2>Customer Testimonials</h2>
 
       <section>
         <TestimonialCard
-          name={"Abhishek"}
-          feedback={"Your Teaching skills are so good."}
+          name={"John Doe"}
+          feedback={"The bikes here are top-notch! Smooth ride and excellent build quality."}
         />
 
         <TestimonialCard
-          name={"Ramzi"}
+          name={"Sarah Connor"}
           feedback={
-            "Wow what a portfolio, doesn't expected this to be on youtube!"
+            "Amazing service! They helped me pick the perfect bike for my long commutes."
           }
         />
 
         <TestimonialCard
-          name={"Sundar Pichai"}
-          feedback={"Amazing seems like you should the Google CEO"}
+          name={"James Smith"}
+          feedback={"I love my new bike! Lightweight, stylish, and performs like a dream."}
+        />
+
+        <TestimonialCard
+          name={"Emily Davis"}
+          feedback={"Great experience overall! The staff is very knowledgeable and helpful."}
         />
       </section>
     </div>
@@ -31,7 +36,7 @@ const TestimonialCard = ({ name, feedback }) => (
   <article>
     <img
       src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
-      alt="User"
+      alt="Customer"
     />
     <h4>{name}</h4>
     <p>{feedback}</p>
