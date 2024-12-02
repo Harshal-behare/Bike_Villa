@@ -23,10 +23,7 @@ const Testimonial = () => {
           feedback={"I love my new bike! Lightweight, stylish, and performs like a dream."}
         />
 
-        <TestimonialCard
-          name={"Emily Davis"}
-          feedback={"Great experience overall! The staff is very knowledgeable and helpful."}
-        />
+       
       </section>
     </div>
   );

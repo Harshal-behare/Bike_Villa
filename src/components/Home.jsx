@@ -62,7 +62,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:harshalbehare1@gmail.com">Hire Me</a>
+            <a href="mailto:Harshal@mjxlabs.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
@@ -99,7 +99,7 @@ const Home = ({ ratio }) => {
 
             <article data-special>
               <p>Contact</p>
-              <span>harshalbehare1@gmail.com</span>
+              <span>Harshal@mjxlabs.com</span>
             </article>
           </aside>
         </div>
