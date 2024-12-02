@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiFillIeCircle, AiFillAndroid, AiFillWindows } from "react-icons/ai";
+import { FaWrench, FaToolbox, FaMotorcycle, FaBicycle } from "react-icons/fa";
 
-const Services = () => {
+const WhoWeAre = () => {
   const animations = {
     whileInView: {
       x: 0,
@@ -17,7 +17,6 @@ const Services = () => {
       opacity: 0,
       y: "-100%",
     },
-
     four: {
       opacity: 0,
       x: "100%",
@@ -25,47 +24,47 @@ const Services = () => {
   };
 
   return (
-    <div id="services">
-      <h2>Services</h2>
+    <div id="who-we-are">
+      <h2>Who We Are</h2>
       <section>
         <motion.div
-          className="serviceBox1"
+          className="service-box1"
           whileInView={animations.whileInView}
           initial={animations.one}
         >
-          <h3>5+</h3>
-          <p>Years Experience</p>
+          <h3>15+</h3>
+          <p>Years of Experience</p>
         </motion.div>
         <motion.div
-          className="serviceBox2"
+          className="service-box2"
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <AiFillIeCircle />
-          <span>Web Development</span>
+          <FaWrench />
+          <span>Expert Bike Mechanics</span>
         </motion.div>
         <motion.div
-          className="serviceBox3"
+          className="service-box3"
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
           transition={{
             delay: 0.2,
           }}
         >
-          <AiFillAndroid />
-          <span>App Development</span>
+          <FaToolbox />
+          <span>State-of-the-Art Shop</span>
         </motion.div>
         <motion.div
-          className="serviceBox4"
+          className="service-box4"
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <AiFillWindows />
-          <span>Desktop Development</span>
+          <FaBicycle />
+          <span>Custom Bike Builds</span>
         </motion.div>
       </section>
     </div>
   );
 };
 
-export default Services;
+export default WhoWeAre;
